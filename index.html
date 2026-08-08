@@ -1,1 +1,285 @@
-Clinical and Translational Science Ontology Consortium (CTSOC)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTSOC - Clinical and Translational Science Ontology Consortium</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.7;
+      color: #333333;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+
+    .navbar {
+      background-color: #005ea2; 
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: 1000; 
+    }
+
+    .hero-section {
+      background-color: #f8f9fa;
+      padding: 3rem 0;
+      border-bottom: 1px solid #e9ecef;
+    }
+    .hero-title {
+      font-weight: 300;
+      font-size: 2.5rem;
+    }
+
+    .content-section {
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">CTSOC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About CTSOC</a></li>
+          <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ontologies">Ontologies</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-center">
+    <div class="container">
+      <h1 class="hero-title">Clinical and Translational Science Ontology Consortium (CTSOC)</h1>
+      <p class="lead text-muted">Leveraging Ontology across the CTSA Ecosystem</p>
+        <!-- Promoting ontology-based interoperability of CTS data -->
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT AREA -->
+  <main class="container">
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="content-section">
+      <h2>About CTSOC</h2>
+      <p>CTSOC was established in the Spring of 2025 to advance the goals of the NIH CTSA initiative by promoting ontology-based interoperability of data within and between CTSA hubs.</p>
+
+      <p>CTSOC currently involves 8 CTSA hubs:</p>
+      <ul>
+        <li>University of Arkansas for Medical Sciences Translational Research Institute (Arkansas) </li>
+        <li>University at Buffalo Clinical and Translational Science Institute (Buffalo)</li>
+        <li>University of Florida Clinical and Translational Science Institute (Florida) </li>
+        <li>University of Texas Health Science Center at Houston and University of Texas M. D. Anderson Cancer Center Center for Clinical and Translational Sciences (Houston)</li>
+        <li>Michigan Institute for Clinical and Health Research (Michigan)</li>
+        <li>University of California San Diego Clinical and Translational Research Institute (San Diego) </li>
+        <li>University of Texas Southwestern Medical Center Clinical and Translational Science Award (Dallas)</li>
+        <li>Clinical and Translational Science Institute of Southeastern Wisconsin (Milwaukee)</li>
+      </ul>
+        
+      <p>Barry Smith (University at Buffalo) William Hogan (Medical College of Wisconsin) will serve as Co-Directors.</p>
+      <hr>
+    </section>
+
+    <!-- GOALS SECTION -->
+    <section id="goals" class="content-section">
+        <h2>Goals</h2>
+        
+        <ol>
+        
+            <li>
+                Apply an ontology-driven approach to critical areas of CTS where ontology coverage is thus far lacking, including: Clinical and Translational Science Ontology (CTSO), with branches:
+                
+                <ul>
+                    <li>Clinical and Translational Science Organization Ontology (CTSOO)</li>
+                    <li>Clinical and Translational Science Impact Ontology (CTSIO)</li>
+                    <li>Social Determinants of Health Ontology (CTSSDHO)</li>
+                    <li>Public Health Ontology (CTSPHO)</li>
+                    <li>Ontology for Uses of AI in CTS (CTSAIO)</li>
+                </ul>
+                
+            </li>
+
+            <li>Explore ways in which the use of ontologies can improve the usability of data at CTSA hubs.</li>
+            
+            <li>Explore ways in which the use of ontologies can streamline exchange and integration of data between CTSA hubs in ways that will promote Findability, Accessibility, Interoperability and Reuse (= FAIRness) of digital assets and thereby manifesting a commitment to the CTSA open science principles.</li>
+            
+            <li>Conduct translational science on the ways in which these ontology-based approaches compare to existing common data elements approaches in use by CTSA hubs.</li>
+    
+        </ol>
+        <hr>
+    </section>
+
+
+
+    <!-- ONTOLOGIES SECTION -->
+    <section id="ontologies" class="content-section">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Ontologies</h2>
+        <input type="text" id="searchInput" class="form-control w-25" placeholder="Search Table...">
+      </div>
+      
+      <div class="table-responsive">
+        <table class="table table-striped table-hover border">
+          <thead class="table-light">
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Description</th>
+              <!--th>License</th-->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>MRIO</strong></td>
+              <td>MRI Ontology</td>
+              <td>An ontology for the representation of MRI acquisition and analysis.</td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>ODFA</strong></td>
+              <td>Ontology of Dental-Care Related Fear and Anxiety</td>
+              <td>
+                An ontology for defining and classifying dental-care related fear, anxiety, and/or phobia (DFA). 
+                Developed as a subset of the Oral Health and Disease Ontology (OHD).
+              </td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>OSRA</strong></td>
+              <td>Ontology of Social Resource Access</td>
+              <td>An ontology for improving the interoperability of data collected through social determinants of health (SDOH).</td>
+              <td><span class="badge bg-secondary"></span></td>
+            </tr>
+            <tr>
+              <td><strong>PAIN</strong></td>
+              <td>Pain Ontology</td>
+              <td>
+                An ontology that contains terms for representing pain as defined by the International Association For the Study of Pain (IASP).
+              </td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>INJO</strong></td>
+              <td>The Injury Ontology</td>
+              <td>An ontology to help aggregate and coordinate data about injuries from various fields (e.g., medicine, occupational health, sports, military, legal domain). </td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>OGMS</strong></td>
+              <td>Ontology of General Medical Science</td>
+              <td>An ontology for representing treatment of disease and diagnosis and on carcinomas and other pathological entities.</td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>OBI</strong></td>
+              <td>Ontology of Biomedical Investigations</td>
+              <td>An integrated ontology for the description of life-science and clinical investigations.</td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>OOSTT</strong></td>
+              <td>Ontology of Organizational Structures of Trauma centers and Trauma systems</td>
+              <td> An ontology built for representating the organizational components of trauma centers and trauma systems.</td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+            <tr>
+              <td><strong>VO</strong></td>
+              <td>The Vaccine Ontology</td>
+              <td>An ontology to standardize and integrate information about vaccines, vaccine components, vaccine mechanisms, vaccine data types, and to support computer-assisted reasoning.</td>
+              <!--td><span class="badge bg-secondary"></span></td-->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4 mt-5 border-top">
+    <div class="container">
+      <p class="text-muted mb-0">&copy; 2026 CTSOC</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript for Table Filtering -->
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.addEventListener('keyup', function() {
+        let filterText = this.value.toLowerCase();
+        let tableRows = document.querySelectorAll('tbody tr');
+        tableRows.forEach(row => {
+          let rowText = row.textContent.toLowerCase();
+          row.style.display = rowText.includes(filterText) ? '' : 'none';
+        });
+      });
+    }
+  </script>
+
+  <!-- JavaScript for Scrollspy (Active Menu Highlighting) -->
+  <script>
+    // 1. Grab all the content sections and all the links inside the navbar
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    // 2. Listen for the user scrolling the page
+    window.addEventListener('scroll', () => {
+      
+      // Calculate current scroll position. 
+      // We add 100 pixels as a "buffer" so the active state triggers 
+      // slightly before the section hits the absolute top of the screen, 
+      // accounting for our sticky navbar.
+      let currentScrollPosition = window.scrollY + 100;
+
+      // 3. Loop through each section on the page
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.getAttribute('id');
+
+        // 4. Check if the user's scroll position is currently inside this section's boundaries
+        if (currentScrollPosition >= sectionTop && currentScrollPosition < sectionTop + sectionHeight) {
+          
+          // 5. If we are inside the section, update the navbar links
+          navLinks.forEach(link => {
+            // First, remove the 'active' class from ALL links
+            link.classList.remove('active');
+            
+            // Next, check if the link's href matches the section we are currently in
+            if (link.getAttribute('href') === `#${sectionId}`) {
+              // Add the 'active' class to highlight it!
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
