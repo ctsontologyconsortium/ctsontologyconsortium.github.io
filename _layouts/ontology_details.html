@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<header class="hero-section text-center">
+    <div class="container">
+        <h1 class="hero-title">{{ page.ontology_title }} ({{ page.ontology_id }})</h1>
+        <p class="lead text-muted">{{ page.short_description }}</p>
+    </div>
+</header>
+
+<main class="container">
+    <section id="about" class="content-section">
+    <h2>Project Details</h2>
+    <table class="metadata-table">
+        <tbody>
+            <tr>
+                <th>Title</th>
+                <td>{{ page.ontology_title }}</td>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <td>{{ page.ontology_id }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ page.description }}</td>
+            </tr>
+            
+            {% if page.homepage %}
+            <tr>
+                <th>Homepage</th>
+                <td><a href="{{ page.homepage_url }}" target="_blank">{{ page.homepage }}</a></td>
+            </tr>
+            {% endif %}
+            
+        </tbody>
+    </table>
+    </section>
+
+    {{ content }}
+</main>

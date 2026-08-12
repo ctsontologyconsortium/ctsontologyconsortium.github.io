@@ -36,3 +36,19 @@ p {
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
+
+
+.metadata-table th, .metadata-table td {
+  padding: 15px 25px;       
+  border: 1px solid #ddd;   
+  text-align: left;         
+  vertical-align: top;      
+} 
+/* vertical-alig: top -> Forces the labels to stay at the top of the cell even if the description wraps to multiple lines */
+
+.metadata-table th {
+  background-color: #f4f6f8;
+  /* width: 25%; */
+  font-weight: 600;
+  color: #333;
+}

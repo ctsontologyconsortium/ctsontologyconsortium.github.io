@@ -1,46 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CTSOC - Clinical and Translational Science Ontology Consortium</title>
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+---
+layout: default
+---
 
-</head>
-<body>
-
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">CTSOC</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About CTSOC</a></li>
-          <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
-          <li class="nav-item"><a class="nav-link" href="#ontologies">Ontologies</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero-section text-center">
-    <div class="container">
+<!-- Hero Section -->
+<header class="hero-section text-center">
+  <div class="container">
       <h1 class="hero-title">Clinical and Translational Science Ontology Consortium (CTSOC)</h1>
       <p class="lead text-muted">Leveraging Ontology across the CTSA Ecosystem</p>
-        <!-- Promoting ontology-based interoperability of CTS data -->
-    </div>
-  </header>
+      <!-- Promoting ontology-based interoperability of CTS data -->
+  </div>
+</header>
 
-  <!-- MAIN CONTENT AREA -->
-  <main class="container">
-
+<main class="container">
     <!-- ABOUT SECTION -->
     <section id="about" class="content-section">
       <h2>About CTSOC</h2>
@@ -112,13 +83,13 @@
           </thead>
           <tbody>
             <tr>
-              <td><strong>MRIO</strong></td>
+              <td><strong><a href="ontologies/mrio.html">MRIO</a></strong></td>
               <td>MRI Ontology</td>
               <td>An ontology for the representation of MRI acquisition and analysis.</td>
               <!--td><span class="badge bg-secondary"></span></td-->
             </tr>
             <tr>
-              <td><strong>ODFA</strong></td>
+              <td><strong><a href="ontologies/odfa.html">ODFA</a></strong></td>
               <td>Ontology of Dental-Care Related Fear and Anxiety</td>
               <td>
                 An ontology for defining and classifying dental-care related fear, anxiety, and/or phobia (DFA). 
@@ -127,13 +98,13 @@
               <!--td><span class="badge bg-secondary"></span></td-->
             </tr>
             <tr>
-              <td><strong>OSRA</strong></td>
+              <td><strong><a href="ontologies/osra.html">OSRA</a></strong></td>
               <td>Ontology of Social Resource Access</td>
               <td>An ontology for improving the interoperability of data collected through social determinants of health (SDOH).</td>
               <td><span class="badge bg-secondary"></span></td>
             </tr>
             <tr>
-              <td><strong>PAIN</strong></td>
+              <td><strong><a href="ontologies/pain.html">PAIN</a></strong></td>
               <td>Pain Ontology</td>
               <td>
                 An ontology that contains terms for representing pain as defined by the International Association For the Study of Pain (IASP).
@@ -141,31 +112,31 @@
               <!--td><span class="badge bg-secondary"></span></td-->
             </tr>
             <tr>
-              <td><strong>INJO</strong></td>
+              <td><strong><a href="ontologies/injo.html">INJO</a></strong></td>
               <td>The Injury Ontology</td>
               <td>An ontology to help aggregate and coordinate data about injuries from various fields (e.g., medicine, occupational health, sports, military, legal domain). </td>
               <!--td><span class="badge bg-secondary"></span></td-->
             </tr>
             <tr>
-              <td><strong>OGMS</strong></td>
+              <td><strong><a href="ontologies/ogms.html">OGMS</a></strong></td>
               <td>Ontology of General Medical Science</td>
               <td>An ontology for representing treatment of disease and diagnosis and on carcinomas and other pathological entities.</td>
               <!--td><span class="badge bg-secondary"></span></td-->
             </tr>
             <tr>
-              <td><strong>OBI</strong></td>
-              <td>Ontology of Biomedical Investigations</td>
+              <td><strong><a href="ontologies/obi.html">OBI</a></strong></td>
+              <td>Ontology for Biomedical Investigations</td>
               <td>An integrated ontology for the description of life-science and clinical investigations.</td>
               <!--td><span class="badge bg-secondary"></span></td -->
             </tr>
             <tr>
-              <td><strong>OOSTT</strong></td>
+              <td><strong><a href="ontologies/oostt.html">OOSTT</a></strong></td>
               <td>Ontology of Organizational Structures of Trauma centers and Trauma systems</td>
               <td> An ontology built for representating the organizational components of trauma centers and trauma systems.</td>
               <!--td><span class="badge bg-secondary"></span></td-->
             </tr>
             <tr>
-              <td><strong>VO</strong></td>
+              <td><strong><a href="ontologies/vo.html">VO</a></strong></td>
               <td>The Vaccine Ontology</td>
               <td>An ontology to standardize and integrate information about vaccines, vaccine components, vaccine mechanisms, vaccine data types, and to support computer-assisted reasoning.</td>
               <!--td><span class="badge bg-secondary"></span></td-->
@@ -175,16 +146,8 @@
       </div>
       <hr>
     </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="bg-light text-center py-4 mt-5 border-top">
-    <div class="container">
-      <p class="text-muted mb-0">&copy; 2026 CTSOC</p>
-    </div>
-  </footer>
-
+</main>
+    
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -242,5 +205,3 @@
       });
     });
   </script>
-</body>
-</html>
